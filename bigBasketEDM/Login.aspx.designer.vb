@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm1
+Partial Public Class Login
 
     '''<summary>
     '''form1 control.
@@ -23,29 +23,29 @@ Partial Public Class WebForm1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''GridView1 control.
+    '''custEmail control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents custEmail As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''oracleEdmTest control.
+    '''custPass control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents oracleEdmTest As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents custPass As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Button1 control.
+    '''loginButton control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents loginButton As Global.System.Web.UI.WebControls.Button
 End Class
