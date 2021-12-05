@@ -45,7 +45,7 @@ Public Class signUpPage
 
             conn.Close()
             MsgBox("You are being redirected to LogIn Page")
-            Response.Redirect("WebForm1.aspx")
+            Response.Redirect("Dashboard.aspx")
 
         Catch ex As Exception When ex.Message <> "Thread was being aborted."
         Finally
