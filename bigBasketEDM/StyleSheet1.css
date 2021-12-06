@@ -1,3 +1,17 @@
-﻿#buttonStyle {
-    background-color: greenyellow;
+﻿.buttonStyle {
+    background-color: #a0ce43;
+    font-weight: bolder;
+}
+.individualButton {
+    height: 30px;
+    width: 90px;
+}
+.dropDownStyle {
+    height: 30px;
+}
+.homeButton {
+    float: right;
+    position: relative;
+    bottom: -2147483648px;
+    left: 0px;
 }
