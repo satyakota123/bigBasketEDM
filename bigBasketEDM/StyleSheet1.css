@@ -12,6 +12,5 @@
 .homeButton {
     float: right;
     position: relative;
-    bottom: -2147483648px;
-    left: 0px;
+    bottom: 10rem;
 }

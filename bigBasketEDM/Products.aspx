@@ -15,20 +15,38 @@
         <div style="background-color: orangered;">
             <p style="position: relative; left: 40rem; color: white;font-size: 30px;">PRODUCTS CATALOG</p>
         </div>
+            <div>
+                <asp:Button ID="Button2" Class="buttonStyle individualButton homeButton" runat="server" Text="Home" />
+            </div>
             <br />
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem></asp:ListItem>
-                <asp:ListItem Value="PL">Product List</asp:ListItem>
-                <asp:ListItem Value="HPM">High Selling Product Monthly</asp:ListItem>
-            </asp:DropDownList>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" Text="Go" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:DropDownList ID="DropDownList2" runat="server" DataSourceID="SqlDataSource3" DataTextField="PNAME" DataValueField="PNAME">
-            </asp:DropDownList>
-            <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:bigBasketEdmConnection %>" ProviderName="<%$ ConnectionStrings:bigBasketEdmConnection.ProviderName %>" SelectCommand="SELECT &quot;PNAME&quot; FROM &quot;PRODUCTS&quot;"></asp:SqlDataSource>
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Button ID="Button3" runat="server" Text="Go" />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Home" />
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <asp:DropDownList ID="DropDownList1" class="dropDownStyle" runat="server">
+                            <asp:ListItem></asp:ListItem>
+                            <asp:ListItem Value="PL">Product List</asp:ListItem>
+                            <asp:ListItem Value="HPM">High Selling Product Monthly</asp:ListItem>
+                        </asp:DropDownList>
+                        </td>
+                        <td>
+                            <asp:Button ID="Button1" Class="buttonStyle individualButton" runat="server" Text="Select" />
+                        </td>
+                        <td>
+                            <asp:DropDownList ID="DropDownList2" class="dropDownStyle" runat="server" DataSourceID="SqlDataSource3" DataTextField="PNAME" DataValueField="PNAME">
+                            </asp:DropDownList>
+                            
+                        </td>
+                        <td>
+                            <asp:Button ID="Button3" Class="buttonStyle individualButton" runat="server" Text="Select" />
+                        </td>
+                    </tr>
+                    <div>
+                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:bigBasketEdmConnection %>" ProviderName="<%$ ConnectionStrings:bigBasketEdmConnection.ProviderName %>" SelectCommand="SELECT &quot;PNAME&quot; FROM &quot;PRODUCTS&quot;">
+                            </asp:SqlDataSource>
+                    </div>
+                </table>
+            </div>
             <br />
             <br />
         <div>
