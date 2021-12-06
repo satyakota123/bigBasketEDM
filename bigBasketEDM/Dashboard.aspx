@@ -24,15 +24,20 @@
             <p style="margin-left: 40px">
             <br />
             <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="productsButton" class="buttonStyle" runat="server" Text="Products" Height="50px" Width="150px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-&nbsp;&nbsp;<asp:Button ID="reportsButton" runat="server" Text="Reports" Height="50px" Width="150px" />
+&nbsp;&nbsp;<asp:Button ID="reportsButton" class="buttonStyle" runat="server" Text="Reports" Height="50px" Width="150px" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-            <asp:Button ID="adminButton" runat="server" Text="Admin" Height="50px" Width="150px" />
+            <asp:Button ID="adminButton" class="buttonStyle" runat="server" Text="Admin" Height="50px" Width="150px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="customerButton" runat="server" Text="Customers" Height="50px" Width="150px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:Button ID="inventoryButton" runat="server" Text="Inventory" Height="50px" Width="150px" />
+            <asp:Button ID="customerButton" class="buttonStyle" runat="server" Text="Customers" Height="50px" Width="150px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <asp:Button ID="inventoryButton" class="buttonStyle" runat="server" Text="Employees" Height="50px" Width="150px" />
             </p>
+        </div>
+        <div>
+
         </div>
     </form>
 </body>

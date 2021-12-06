@@ -18,7 +18,7 @@
     End Sub
 
     Protected Sub inventoryButton_Click(sender As Object, e As EventArgs) Handles inventoryButton.Click
-        Response.Redirect("Inventory.aspx")
+        Response.Redirect("Employee.aspx")
     End Sub
 
 End Class
