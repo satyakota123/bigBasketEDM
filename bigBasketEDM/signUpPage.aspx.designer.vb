@@ -23,6 +23,24 @@ Partial Public Class signUpPage
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''custUserName control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents custUserName As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''custPassword control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents custPassword As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''fName control.
     '''</summary>
     '''<remarks>
@@ -59,13 +77,13 @@ Partial Public Class signUpPage
     Protected WithEvents gender As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''age control.
+    '''deptNo control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents age As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents deptNo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''dob control.

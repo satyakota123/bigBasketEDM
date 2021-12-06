@@ -25,11 +25,16 @@ Public Class Admin
 
             GridView1.DataSource = cmd.ExecuteReader()
             GridView1.DataBind()
+            GridView1.Visible = True
             conn.Close()
         Catch ex As Exception When ex.Message <> "Thread was being aborted."
         Finally
             MsgBox("error")
             cmd.Dispose()
         End Try
+    End Sub
+
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Response.Redirect("Dashboard.aspx")
     End Sub
 End Class

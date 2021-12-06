@@ -14,6 +14,13 @@
             <br />
             Please fill the below details to signUp<br />
             <br />
+            UserName<br />
+            <asp:TextBox ID="custUserName" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            Password<br />
+            <asp:TextBox ID="custPassword" runat="server" TextMode="Password"></asp:TextBox>
+            <br />
             First Name&nbsp &nbsp &nbsp &nbsp <br />
             <asp:TextBox ID="fName" runat="server"></asp:TextBox>
             <br />
@@ -28,13 +35,13 @@
             <br />
             Gender<br />
             <asp:DropDownList ID="gender" runat="server">
-                <asp:ListItem>Male</asp:ListItem>
-                <asp:ListItem>Female</asp:ListItem>
+                <asp:ListItem Value="M">Male</asp:ListItem>
+                <asp:ListItem Value="F">Female</asp:ListItem>
             </asp:DropDownList>
             <br />
             <br />
-            Age<br />
-            <asp:TextBox ID="age" runat="server"></asp:TextBox>
+            Department Number<br />
+            <asp:TextBox ID="deptNo" runat="server"></asp:TextBox>
             <br />
             <br />
             Date of Birth<br />
