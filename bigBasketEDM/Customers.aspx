@@ -18,7 +18,7 @@
         <asp:Button ID="homeButton" Class="buttonStyle individualButton homeButton" runat="server" Text="Home" />
             <br />
             <br />
-            <asp:GridView ID="GridView1" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="CUST_ID">
+            <asp:GridView ID="GridView1" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="CUST_ID" AllowPaging="True">
                 <Columns>
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                     <asp:BoundField DataField="CUST_ID" HeaderText="CUST_ID" SortExpression="CUST_ID" ReadOnly="True" />

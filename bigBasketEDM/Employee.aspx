@@ -55,9 +55,9 @@
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:bigBasketEdmConnection %>" ProviderName="<%$ ConnectionStrings:bigBasketEdmConnection.ProviderName %>" SelectCommand="SELECT * FROM &quot;MANAGER_HIERARCHY&quot;"></asp:SqlDataSource>
             <br />
-            <asp:GridView ID="GridView2" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="EMP_ID" DataSourceID="SqlDataSource2" Visible="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3">
+            <asp:GridView ID="GridView2" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="EMP_ID" DataSourceID="SqlDataSource2" Visible="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" AllowPaging="True">
                 <Columns>
-                    <asp:CommandField ShowEditButton="True" />
+                    <asp:CommandField ShowEditButton="True" ShowDeleteButton="True" />
                     <asp:BoundField DataField="EMP_ID" HeaderText="EMP_ID" ReadOnly="True" SortExpression="EMP_ID" />
                     <asp:BoundField DataField="FNAME" HeaderText="FNAME" SortExpression="FNAME" />
                     <asp:BoundField DataField="MNAME" HeaderText="MNAME" SortExpression="MNAME" />
